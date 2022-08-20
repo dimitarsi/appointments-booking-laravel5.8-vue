@@ -1,0 +1,70 @@
+[class*=icon-] {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.icon-32 {
+    width: 32px;
+    height: 32px;
+}
+.icon-80 {
+    width: 80px;
+    height: 80px;
+}
+
+.icon-loading {
+    background: url('/img/loading.svg') no-repeat 0 0;
+}
+.icon-approved {
+    background: url('/img/approved.svg') no-repeat 0 0;
+}
+.icon-unknown {
+    background: url('/img/unknown-status.svg') no-repeat 0 0;
+}
+.icon-user {
+    background: url('../assets/svg/user.svg') no-repeat 0 0;
+}
+.icon-anonymouse {
+    background: url('../assets/svg/anonymouse.svg') no-repeat 0 0;
+}
+.icon-logout {
+    background: url('../assets/svg/logout.svg') no-repeat 0 0;
+}
+.icon-logout-white {
+    background: url('../assets/svg/logout-white.svg') no-repeat 0 0;
+}
+
+.icon-hamburger {
+    background: url('../assets/svg/hamburger.svg') no-repeat 0 0;
+}
+
+.icon-filter {
+    background: url('../assets/svg/filter.svg') no-repeat 0 0;
+}
+
+
+.icon-export {
+    background: url('../assets/svg/export.svg') no-repeat 0 0;
+}
+
+.abs-icon {
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    margin-top: -8px;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.4);
+    }
+}
+
+.trash-icon {
+    z-index: 99;
+}

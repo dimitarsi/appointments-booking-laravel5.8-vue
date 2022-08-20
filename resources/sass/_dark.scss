@@ -1,0 +1,83 @@
+@media(prefers-color-scheme: dark) {
+
+    a, a:visited {
+        color: #999;
+        position: relative;
+    }
+
+
+    .form-control, .form-control, .bg-white, .reg-popup .reg-popup-body, .btn-submit, .logo, .header, body {
+        background: #111;
+        color: #ccc;
+    }
+
+    code {
+        background: #000;
+        color: #ccc;
+    }
+
+    .show-list .list::before,
+    .input-list .inner-list {
+        background: #0d0d0d;
+    }
+
+    .caret-up {
+        background-image: url('../assets/svg/caret-white.svg');
+    }
+
+    .btn-submit, .logo, .header, body, nav a {
+        border-color: #161616;
+    }
+
+    .textarea, .header-row, .cell-data, .bordered {
+        border-color: #2d2d2d;
+    }
+
+    .cell-data {
+        background: #161616;
+    }
+
+    .void-toolbar .hallow, .text-black {
+        color: #ddd;
+    }
+
+    .list .item-selected {
+        color: #ddd;
+    }
+
+    .radio-select .list .list-item:hover, .radio-select .list .item-selected {
+        color: #ccc;
+    }
+
+    .radio-empty {
+        background-image: url('../assets/svg/radio-full.svg');
+    }
+
+    .radio-full {
+        background-image: url('../assets/svg/radio-empty.svg');
+    }
+
+    .list-item:hover, .sidebar-item a:hover {
+        background: #222;
+        color: #ddd;
+    }
+
+    .is-passed {
+        background: #161616;
+    }
+
+
+    .sidebar-item a, 
+    .sidebar-item button {
+        color: #ddd;
+    }
+
+    .sidebar {
+        background: #0f0f0f;
+    }
+
+    .list-item.item-selected, nav a:hover {
+        background: #000;
+        color: #ddd;
+    }
+}

@@ -1,0 +1,53 @@
+.bordered {
+    border: 1px solid #f5f5f5;
+    border-width: 1px 1px 0 0;
+    color: #999;
+    box-sizing:border-box;
+  }
+  .bordered .bordered{
+    border-width: 0 0 0 1px;
+  }
+
+  .service-cell {
+    width: 80px;
+    flex: 1 0 auto;
+    box-sizing: border-box;
+  }
+
+  .cell {
+    position: relative;
+    z-index: 1;
+    transition: .2s background, .2s transform, .2s box-shadow;
+    &.selected { 
+      z-index: 999; 
+      background:#fefefe;
+      box-shadow: 0 3px 7px -5px rgba(0,0,0,.1);
+    }
+  }
+
+  .cell.cellHover {
+    z-index: 10;
+  }
+
+.cell-data {
+  position: absolute;
+  background: #edf9ff;
+  box-sizing: border-box;
+  padding: .25em;
+  color: #444;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  border: 1px solid #c0cfd7;
+
+  &.confirmed {
+    background: #edfff5;
+  }
+}
+
+.grid-th {
+  height: $menu-item*.5;
+}
+
+.header-row {
+  flex: 0 0 auto;
+  border-bottom: 1px solid #f5f5f5;
+}

@@ -1,0 +1,136 @@
+button, .btn,
+[class*=btn-] {
+  border: 1px solid rgba(0,0,0,0);
+  background: #333;
+  color: #fff;
+  padding: .5em 2em;
+  cursor: pointer;
+  font-size: 0.8em;
+  line-height: 1.15;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  transition: .3s background, .3s color, .3s opacity, .3s border;
+  position: relative;
+
+  span, i, [class*=icon-] {
+    position: relative;
+    z-index: 5;
+  }
+
+  &:after {
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    background: #00686D;
+    position: absolute;
+    z-index: 0;
+    transition: .3s all;
+  }
+
+  &:hover:after {
+    left: -5px;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    opacity: .2;
+  }
+}
+
+  .btn:hover {
+    background: #00686D;
+  }
+  
+  .btn-link-hallow {
+    background: rgba(16, 110, 255, 0);
+    color: #106EFF;
+    text-decoration: underline;
+  }
+  
+  .btn-link-hallow:hover {
+    background: rgba(16, 110, 255, 1);
+    color: #fff;
+  }
+  
+  .btn-reg {
+    background: #637BF3;
+  }
+  
+  .btn-logout {
+    font-size: 0.8em;
+    padding: 0.5em;
+    background: #aa6666;
+  }
+
+  .btn-cancel {
+    background: #999;
+    color: #dfdfdf;
+    border-color: rgba(0,0,0,0);
+    &:hover {
+      border-color: #999;
+      background: #fff;
+      color: #999;
+    }
+  }
+
+
+  .btn-half {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: .8;
+    padding: .25em 0;
+    width: 100%;
+    background: #72C0FF;
+    color: #fff;
+    &:hover {
+      background: #5CB484;
+    }
+    &.disabled, .disabled & {
+      background: #888;
+    }
+  }
+
+  .btn-sm {
+    font-size: .75em;
+    padding: .25em .75em;
+    line-height: .8;
+  }
+
+  .btn-submit {
+    width: $menu-item;
+    height: $menu-item;
+    border-width: 0 none;
+    background: #fff;
+    color:#FF5309;
+
+    &:hover {
+      background: #FF5309;
+      color: #fff;
+
+      &:after {
+        background: rgba(196, 32, 0, .4);
+      }
+    }
+  }
+
+  .link, .back-link {
+    text-decoration: none;
+    &:hover span {
+      text-decoration: underline;
+    }
+  }
+
+  .close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #dfdfdf;
+    transition: .3s color;
+
+    &:hover {
+      color: $red;
+    }
+  }

@@ -1,0 +1,103 @@
+
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+@import 'variables';
+@import 'headings';
+@import 'grid';
+@import 'common';
+@import 'btn';
+@import 'header';
+@import 'animations';
+@import 'icons';
+@import 'nav';
+@import 'forms';
+
+@import 'components/index';
+@import 'transitions';
+
+@import 'braintree';
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-size:  100%;
+  font-family: "Segoe UI";
+  width: 100vw;
+  // overflow: hidden;
+}
+
+/** Form */
+.label {
+  display: block;
+  width: 200px;
+}
+
+.reg-popup {
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+
+  .reg-popup-body {
+    padding: 50px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+  }
+  .reg-body-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: 1;
+  }
+}
+
+code {
+  background: #ddd;
+  color: #222;
+  padding: 24px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.preset-box {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.preview-box {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  justify-content: center;
+  img {
+    width: 90px;
+  }
+}
+
+
+#vueapp {
+  flex: 1 1 0;
+}
+
+.text-black {
+  color: #333;
+}
+
+@import 'dark';

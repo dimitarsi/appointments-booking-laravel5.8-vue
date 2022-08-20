@@ -1,0 +1,35 @@
+.braintree-methods--active {
+    border-width: 1px !important;
+}
+
+.braintree-method__icon {
+    display: none;
+}
+
+.braintree-method__check {
+    display: block;
+}
+
+.braintree-method .braintree-method__icon {
+    width: 56.8px !important;
+    height: 63.8px !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    padding: 0;
+    align-content: center;
+}
+
+.braintree-method .braintree-method__icon svg {
+    width: 50%;
+    margin-left: 16px;
+}
+
+.braintree-method {
+    border-width: 1px !important;
+}
+
+.braintree-sheet__container {
+    margin-bottom: 0px;
+}

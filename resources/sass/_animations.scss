@@ -1,0 +1,16 @@
+.a-rotate {
+    animation: rotate 1s;
+    animation-timing-function: linear;
+}
+.a-loop {
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% { 
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

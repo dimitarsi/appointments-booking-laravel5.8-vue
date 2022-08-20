@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    flex-flow: column;
+    a {
+        font-size: 12px;
+        padding: 2em 1em;
+        // background: #fff;
+        // color: #222222;
+        color: #fff;
+        transition: .3s background, .3s color, .3s border;
+        flex: auto 0 0;
+        text-decoration: none;
+        border-bottom: 1px solid #356e9d;
+    }
+    a:last-of-type {
+        border-bottom: 0 none;
+    }
+    a:hover {
+        background: #356e9d;
+        color: #f1f1f1;
+    }
+}

@@ -1,0 +1,62 @@
+[Thu Aug 18 20:05:15.948074 2022] [watchdog:debug] [pid 8] mod_watchdog.c(454): AH010033: Watchdog: Running with WatchdogInterval 1000ms
+[Thu Aug 18 20:05:15.948302 2022] [watchdog:debug] [pid 8] mod_watchdog.c(462): AH02974: Watchdog: found parent providers.
+[Thu Aug 18 20:05:15.948305 2022] [watchdog:debug] [pid 8] mod_watchdog.c(508): AH02977: Watchdog: found child providers.
+[Thu Aug 18 20:05:15.948307 2022] [watchdog:debug] [pid 8] mod_watchdog.c(516): AH02978: Watchdog: Looking for child (_singleton_).
+[Thu Aug 18 20:05:15.948308 2022] [watchdog:debug] [pid 8] mod_watchdog.c(516): AH02978: Watchdog: Looking for child (_default_).
+[Thu Aug 18 20:05:15.949381 2022] [watchdog:debug] [pid 9] mod_watchdog.c(565): AH02980: Watchdog: nothing configured?
+[Thu Aug 18 20:05:15.949738 2022] [watchdog:debug] [pid 10] mod_watchdog.c(565): AH02980: Watchdog: nothing configured?
+[Thu Aug 18 20:05:15.950124 2022] [watchdog:debug] [pid 11] mod_watchdog.c(565): AH02980: Watchdog: nothing configured?
+[Thu Aug 18 20:05:15.950474 2022] [watchdog:debug] [pid 12] mod_watchdog.c(565): AH02980: Watchdog: nothing configured?
+[Thu Aug 18 20:05:15.950611 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Aug 18 20:05:15.950618 2022] [mpm_prefork:info] [pid 8] AH00164: Server built: 2020-08-12T21:33:25
+[Thu Aug 18 20:05:15.950622 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Aug 18 20:05:15.950624 2022] [core:debug] [pid 8] log.c(1570): AH02639: Using SO_REUSEPORT: yes (1)
+[Thu Aug 18 20:05:15.950625 2022] [mpm_prefork:debug] [pid 8] prefork.c(919): AH00165: Accept mutex: none (default: sysvsem)
+[Thu Aug 18 20:05:15.950822 2022] [watchdog:debug] [pid 13] mod_watchdog.c(565): AH02980: Watchdog: nothing configured?
+[Thu Aug 18 20:08:33.656594 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39696] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:08:33.656637 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39696] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:08:33.656710 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39696] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:08:33.656713 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39696] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:08:34.126612 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39700] AH01626: authorization result of Require all granted: granted, referer: http://localhost:8080/
+[Thu Aug 18 20:08:34.126668 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39700] AH01626: authorization result of <RequireAny>: granted, referer: http://localhost:8080/
+[Thu Aug 18 20:08:34.184003 2022] [watchdog:debug] [pid 14] mod_watchdog.c(565): AH02980: Watchdog: nothing configured?
+[Thu Aug 18 20:09:08.005678 2022] [authz_core:debug] [pid 11] mod_authz_core.c(809): [client 172.18.0.1:39708] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:09:08.005756 2022] [authz_core:debug] [pid 11] mod_authz_core.c(809): [client 172.18.0.1:39708] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:09:08.005853 2022] [authz_core:debug] [pid 11] mod_authz_core.c(809): [client 172.18.0.1:39708] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:09:08.005857 2022] [authz_core:debug] [pid 11] mod_authz_core.c(809): [client 172.18.0.1:39708] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:09:26.421943 2022] [authz_core:debug] [pid 12] mod_authz_core.c(809): [client 172.18.0.1:39712] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:09:26.421984 2022] [authz_core:debug] [pid 12] mod_authz_core.c(809): [client 172.18.0.1:39712] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:09:26.422042 2022] [authz_core:debug] [pid 12] mod_authz_core.c(809): [client 172.18.0.1:39712] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:09:26.422053 2022] [authz_core:debug] [pid 12] mod_authz_core.c(809): [client 172.18.0.1:39712] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:09:28.167262 2022] [authz_core:debug] [pid 13] mod_authz_core.c(809): [client 172.18.0.1:39720] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:09:28.167312 2022] [authz_core:debug] [pid 13] mod_authz_core.c(809): [client 172.18.0.1:39720] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:09:28.167409 2022] [authz_core:debug] [pid 13] mod_authz_core.c(809): [client 172.18.0.1:39720] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:09:28.167414 2022] [authz_core:debug] [pid 13] mod_authz_core.c(809): [client 172.18.0.1:39720] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:09:44.949387 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39726] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:09:44.949423 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39726] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:09:44.949508 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39726] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:09:44.949517 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39726] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:10:37.310248 2022] [reqtimeout:info] [pid 14] [client 172.18.0.1:39732] AH01382: Request header read timeout
+[Thu Aug 18 20:11:08.742295 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39738] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:11:08.742335 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39738] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:11:08.742415 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39738] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:11:08.742420 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39738] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:12:01.139403 2022] [reqtimeout:info] [pid 11] [client 172.18.0.1:39742] AH01382: Request header read timeout
+[Thu Aug 18 20:12:38.719476 2022] [authz_core:debug] [pid 12] mod_authz_core.c(809): [client 172.18.0.1:39748] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:12:38.719535 2022] [authz_core:debug] [pid 12] mod_authz_core.c(809): [client 172.18.0.1:39748] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:12:38.719616 2022] [authz_core:debug] [pid 12] mod_authz_core.c(809): [client 172.18.0.1:39748] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:12:38.719620 2022] [authz_core:debug] [pid 12] mod_authz_core.c(809): [client 172.18.0.1:39748] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:12:50.308224 2022] [authz_core:debug] [pid 13] mod_authz_core.c(809): [client 172.18.0.1:39752] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:12:50.308259 2022] [authz_core:debug] [pid 13] mod_authz_core.c(809): [client 172.18.0.1:39752] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:12:50.308341 2022] [authz_core:debug] [pid 13] mod_authz_core.c(809): [client 172.18.0.1:39752] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:12:50.308432 2022] [authz_core:debug] [pid 13] mod_authz_core.c(809): [client 172.18.0.1:39752] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:12:51.375984 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39758] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:12:51.376019 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39758] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:12:51.376121 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39758] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:12:51.376128 2022] [authz_core:debug] [pid 9] mod_authz_core.c(809): [client 172.18.0.1:39758] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:13:43.539619 2022] [reqtimeout:info] [pid 14] [client 172.18.0.1:39764] AH01382: Request header read timeout
+[Thu Aug 18 20:13:49.713404 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39770] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:13:49.713464 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39770] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:13:49.713543 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39770] AH01626: authorization result of Require all granted: granted
+[Thu Aug 18 20:13:49.713549 2022] [authz_core:debug] [pid 10] mod_authz_core.c(809): [client 172.18.0.1:39770] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 18 20:14:41.790141 2022] [reqtimeout:info] [pid 11] [client 172.18.0.1:39774] AH01382: Request header read timeout
